@@ -18,6 +18,9 @@ Méthodes principales :
   - `toString()` : Retourne une chaîne décrivant l'étudiant et sa moyenne.
 
 
+
+
+
 2-Class : GestionEtudiant.java
 
 -Rôle : Gère la lecture, le traitement et l'écriture des données des étudiants.
@@ -36,6 +39,9 @@ Méthodes principales :
     - Trie la liste des étudiants par moyenne décroissante.
   - `ecrireCSV(List<Etudiant> liste, String cheminFichier)` :
     - Écrit les informations des étudiants dans un fichier CSV de sortie.
+
+
+
 
 
 3-Class : Main.java
