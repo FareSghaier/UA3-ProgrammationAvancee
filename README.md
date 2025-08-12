@@ -1,10 +1,12 @@
 Class : Etudiant.java
 -Rôle : Représente un étudiant avec son nom, prénom, ses notes et sa moyenne.
+
 -Attributs :
   - `nom` : Nom de l'étudiant.
   - `prenom` : Prénom de l'étudiant.
   - `notes` : Tableau contenant les notes obtenues.
   - `moyenne` : Moyenne calculée à partir des notes.
+  - 
 -Constructeur :
   - Permet d'initialiser le nom, le prénom et les notes de l'étudiant.
   - La moyenne est calculée dès la création de l'objet.
