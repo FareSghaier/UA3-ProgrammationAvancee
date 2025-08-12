@@ -1,27 +1,32 @@
-Class : Etudiant.java
+1-Class : Etudiant.java
+
 -Rôle : Représente un étudiant avec son nom, prénom, ses notes et sa moyenne.
 
--Attributs :
+Attributs :
   - `nom` : Nom de l'étudiant.
   - `prenom` : Prénom de l'étudiant.
   - `notes` : Tableau contenant les notes obtenues.
   - `moyenne` : Moyenne calculée à partir des notes.
-  - 
--Constructeur :
+    
+Constructeur :
   - Permet d'initialiser le nom, le prénom et les notes de l'étudiant.
   - La moyenne est calculée dès la création de l'objet.
--Méthodes principales :
+
+Méthodes principales :
   - `calculerMoyenne()` : Calcule la moyenne des notes.
   - `getNom()`, `getPrenom()`, `getNotes()`, `getMoyenne()` : Accesseurs (Getters).
   - `toString()` : Retourne une chaîne décrivant l'étudiant et sa moyenne.
 
 
-Class : GestionEtudiant.java
+2-Class : GestionEtudiant.java
+
 -Rôle : Gère la lecture, le traitement et l'écriture des données des étudiants.
--Importations :
+
+Importations :
   - `java.io.*` : Pour lire/écrire dans des fichiers.
   - `java.util.*` : Pour utiliser les listes et autres structures de données.
--Méthodes principales :
+
+Méthodes principales :
   - `lireCSV(String cheminFichier)` :
     - Lit un fichier CSV ligne par ligne.
     - Sépare chaque ligne par des virgules.
@@ -33,9 +38,11 @@ Class : GestionEtudiant.java
     - Écrit les informations des étudiants dans un fichier CSV de sortie.
 
 
-Class : Main.java
+3-Class : Main.java
+
 -Rôle : Point d'entrée du programme.
--Fonctionnement :
+
+Fonctionnement :
   1. Définit les noms des fichiers CSV d'entrée et de sortie.
   2. Appelle `GestionEtudiant.lireCSV()` pour charger les données.
   3. Trie les étudiants par moyenne.
