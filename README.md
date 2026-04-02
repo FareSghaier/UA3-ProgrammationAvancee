@@ -1,4 +1,4 @@
-# 📊 UA3 – Programmation Avancée (Java)
+# 📊 Java Data Processing Application 
 
 ##  Contexte
 Ce projet a été réalisé dans le cadre de l’unité d’apprentissage **UA3 – Programmation Avancée**.  
